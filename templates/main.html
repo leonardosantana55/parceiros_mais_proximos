@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parceiros Main Próximos</title>
+</head>
+<style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+			flex-direction: column
+        }
+</style>
+<body>
+	
+<h1>Parceiros Mais Próximos</h1>
+
+<!--
+<form action="/result">
+    <label for="q">Informe uma cidade</label>
+	<input type="text" name="q_cidade" id="q_cidade" style="margin-bottom:15px;"><br>
+    <label for="q">Informe um estado</label>
+	<input type="text" name="q_estado" id="q_estado" ><br>
+    <input type="submit" value="Pesquisar">
+
+</form>
+-->
+<form action="/result" style="display:flex;">
+  <table>
+    <tr>
+      <td align="left"> <label for="q_cidade">Informe uma cidade</label> </td>
+      <td align="left"> <input type="q_cidade" name="q_cidade" /> </td>
+    </tr>
+    <tr>
+      <td align="left"> <label for="q_estado">Informe um estado</label> </td>
+      <td align="left"><input type="q_estado" name="q_estado" /></td>
+    </tr>
+  </table>
+	<input type="submit" value="Pesquisar">
+</form>
+    
+</body>
+</html>
